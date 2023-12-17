@@ -1,0 +1,16 @@
+p {
+    color: blue;
+    animation: moveIn 1s ease-in;
+}
+
+@keyframes moveIn {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
